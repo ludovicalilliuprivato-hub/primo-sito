@@ -99,20 +99,6 @@ li {
     line-height: 1.5;
 }
 
-.bottone {
-    display: inline-block;
-    background-color: #7c55af;
-    color: white;
-    padding: 12px 20px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.bottone:hover {
-    background-color: #5a3d8a;
-}
 
 
 .link-utili {
@@ -137,3 +123,8 @@ li {
     background-color: #7c55af;
     color: white;
 }
+
+<div class="link-utili">
+  <a href="cv.pdf" target="_blank">Apri CV</a>
+  <a href="cv.pdf" download>Scarica CV</a>
+</div>
